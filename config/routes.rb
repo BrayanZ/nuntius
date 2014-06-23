@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   namespace :api do
     namespace :v1 do
-      resources :projects
+      resources :projects do
+        resources :stories
+      end
     end
   end
 
