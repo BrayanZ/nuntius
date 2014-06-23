@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.1.1'
 gem 'rails', '4.1.0'
 
 gem 'pg'
@@ -15,3 +14,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development
+
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'devise', '3.2.4'
